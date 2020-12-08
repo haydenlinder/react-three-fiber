@@ -23,12 +23,12 @@ const Effects = () => {
                 bokehScale={2}
                 height={480}
             />
-            {lights.map(light => 
+            {/* {lights.map(light => 
                 <GodRays 
                     key={light.current.uuid} 
                     sun={light.current}
                 />
-            )}
+            )} */}
         </EffectComposer>
         :
         null
