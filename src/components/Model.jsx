@@ -19,7 +19,7 @@ const Model = props => {
         })
     }
 
-    useFrame((scene,delta) => {
+    useFrame((scene, delta) => {
         mixer?.update(delta)
     })
 

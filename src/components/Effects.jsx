@@ -13,6 +13,7 @@ const Effects = () => {
         if (scene.lights && scene.lights.length === 3)
             setLights(scene.lights)
     }, [scene.lights])
+
     return (
         lights ? 
         <EffectComposer>
@@ -22,12 +23,12 @@ const Effects = () => {
                 bokehScale={2}
                 height={480}
             />
-            {/* {lights.map(light => 
+            {lights.map(light => 
                 <GodRays 
                     key={light.current.uuid} 
                     sun={light.current}
                 />
-            )} */}
+            )}
         </EffectComposer>
         :
         null
