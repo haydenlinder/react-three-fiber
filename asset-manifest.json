@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-three-fiber/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/react-three-fiber/static/js/main.905e6590.chunk.js",
-    "main.js.map": "/react-three-fiber/static/js/main.905e6590.chunk.js.map",
+    "main.js": "/react-three-fiber/static/js/main.5dada853.chunk.js",
+    "main.js.map": "/react-three-fiber/static/js/main.5dada853.chunk.js.map",
     "runtime-main.js": "/react-three-fiber/static/js/runtime-main.ea8eae88.js",
     "runtime-main.js.map": "/react-three-fiber/static/js/runtime-main.ea8eae88.js.map",
     "static/js/2.b2ef80df.chunk.js": "/react-three-fiber/static/js/2.b2ef80df.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ea8eae88.js",
     "static/js/2.b2ef80df.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.905e6590.chunk.js"
+    "static/js/main.5dada853.chunk.js"
   ]
 }
