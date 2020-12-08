@@ -5,7 +5,8 @@ import Dragable from './Dragable'
 
 const Cars = ({ }) => {
     return (
-        <Suspense fallback={null} >
+        // <Suspense fallback={null} >
+        <>
             <Dragable transformGroup>
                 <BoundingBox
                     position={[4, 4, 0]}
@@ -36,7 +37,8 @@ const Cars = ({ }) => {
                     scale={new Array(3).fill(0.01)}
                 />
             </group>
-        </Suspense>
+        </>
+        // </Suspense>
     )
 }
 

@@ -32,8 +32,9 @@ function App() {
         camera={{ position: [7,7,7] }}
       >
         <Suspense fallback={null}>
+        {/* <Suspense fallback={null}> */}
           <Background />
-        </Suspense>
+        {/* </Suspense> */}
         <CameraControls />
         <Lights/>
         <Orbit />
@@ -42,6 +43,7 @@ function App() {
           <Floor position={[0,-0.5,0]}/>
         </Physics>
         <Effects />
+      </Suspense>
       </Canvas>
     </div>
   );
