@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
     "drei": "^2.2.10",
+    "patch-package": "^6.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-postprocessing": "^1.4.0",
@@ -23,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "postinstall": "patch-package"
   },
   "eslintConfig": {
     "extends": [
