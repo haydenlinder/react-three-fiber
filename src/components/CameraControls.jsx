@@ -4,7 +4,7 @@ import state from '../state'
 const CameraControls = ({ }) => {
 
     useFrame(({ camera, scene }) => {
-        if (state.activeMesh.name && state.activeMesh.name !== state.activeMeshName) {
+        if (state.activeMesh.name !== state.activeMeshName) {
             state.activeMesh = scene.getObjectByName(
                 state.activeMeshName
             ) || {}
