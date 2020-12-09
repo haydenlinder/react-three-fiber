@@ -14,6 +14,7 @@ import CameraControls from './components/CameraControls'
 import CameraButtons from './components/CameraButtons'
 import Lights from './components/Lights'
 import Effects from './components/Effects'
+import { Loader, Html } from 'drei'
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
         style={{background: 'black'}} 
         camera={{ position: [7,7,7] }}
       >
-        <Suspense fallback={null}>
+        <Suspense fallback={<Html><Loader /></Html>}>
         {/* <Suspense fallback={null}> */}
           <Background />
         {/* </Suspense> */}
