@@ -26,7 +26,7 @@ function App() {
         style={{background: 'black'}} 
         camera={{ position: [7,7,7] }}
       >
-        <Suspense fallback={<Html><Loader /></Html>}>
+        <Suspense fallback={<Html center><Loader /></Html>}>
         {/* <Suspense fallback={null}> */}
           <Background />
         {/* </Suspense> */}
@@ -37,7 +37,7 @@ function App() {
           <Cars />
           <Floor position={[0,-0.5,0]}/>
         </Physics>
-        <Effects />
+        {/* <Effects /> */}
       </Suspense>
       </Canvas>
     </div>

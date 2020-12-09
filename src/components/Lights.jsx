@@ -14,7 +14,7 @@ const Lights = ({}) => {
             />
             <Bulb position={[-6,3,0]} />
             <Bulb position={[0,3,0]} />
-            <Bulb position={[6, 3, 0]} />
+            {/* <Bulb position={[6, 3, 0]} /> */}
         </>
     )
 }
