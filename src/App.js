@@ -22,12 +22,6 @@ function App() {
       <ColorPicker />
       <CameraButtons />
       <Canvas 
-        gl={{
-          powerPreference: "high-performance",
-          antialias: false,
-          stencil: false,
-          depth: false
-        }}
         shadowMap
         style={{background: 'black'}} 
         camera={{ position: [7,7,7] }}
